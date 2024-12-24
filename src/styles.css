@@ -1,1 +1,50 @@
-/* You can add global styles to this file, and also import other style files */
+* {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 100%;
+    --font-size-2: 1.75rem;
+    --fon-size-3: 1.25rem;
+    --font-size-4: 1rem;
+    --font-size-5:.85rem;
+
+    --color-blue-1: #1134aa;
+    --color-blue-2: #1132aa;
+    --color-blue-3: #0f2eac; 
+
+    --color-black-1: #f9f9f9;
+    --color-black-2: #f1f1f1;
+    --color-black-3: #dfdcdc;
+    --color-black-4: #555353;
+}
+
+body {
+    background: linear-gradient(180deg, var(--color-blue-1) 15%, var(--color-blue-2));
+}
+
+h1 {
+    color: #fff;
+    text-align: center;
+    font-size: var(--fon-size-3);
+}
+
+h2 {
+    font-size: var(--fon-size-3);
+}
+
+p.a {
+    color: var(--color-black-4);
+}
+
+.container {
+    max-width: 400px;
+    background: var(--color-black-2);
+    margin: 0 auto;
+    border-radius: 15px;
+    padding: 25px 15px;
+}
